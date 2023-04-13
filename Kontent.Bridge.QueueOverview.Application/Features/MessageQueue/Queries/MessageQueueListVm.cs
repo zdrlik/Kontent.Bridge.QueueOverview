@@ -8,6 +8,8 @@ namespace Kontent.Bridge.QueueOverview.Application.Features.MessageQueue.Queries
 {
     public class MessageQueueListVm
     {
-        // TODO
+        public string ProjectId { get; set; }
+
+        // TODO: Add properties
     }
 }

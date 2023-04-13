@@ -2,6 +2,8 @@
 {
     public class MessageQueueItem
     {
-        // TBD
+        public string ProjectId { get; set; }
+
+        // TODO: Add properties
     }
 }
