@@ -74,7 +74,7 @@ namespace Kontent.Bridge.QueueOverview.Application.UnitTests.Features.MessageQue
         public GetMessageQueueListHandlerBuilder WithMessageQueueItems(IEnumerable<MessageQueueItem> items)
         {
             var messagesRepository = new Mock<IMessagesRepository>();
-            messagesRepository.Setup(m => m.GetMessagesAsync(It.IsAny<string>(), It.IsAny<CancellationToken>()))
+            messagesRepository.Setup(m => m.GetMessages(It.IsAny<string>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync(items.ToList());
 
             return WithMessagesRepository(messagesRepository.Object);

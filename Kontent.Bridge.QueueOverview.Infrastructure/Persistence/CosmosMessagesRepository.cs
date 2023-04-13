@@ -9,7 +9,7 @@ namespace Kontent.Bridge.QueueOverview.Infrastructure.Persistence
         {
         }
 
-        public async Task<IReadOnlyList<MessageQueueItem>> GetMessagesAsync(string projectId, CancellationToken cancellationToken)
+        public async Task<IReadOnlyList<MessageQueueItem>> GetMessages(string projectId, CancellationToken cancellationToken)
         {
             // TODO: Implement this method
             return Enumerable.Empty<MessageQueueItem>().ToList();

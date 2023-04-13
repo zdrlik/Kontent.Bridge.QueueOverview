@@ -20,7 +20,7 @@ namespace Kontent.Bridge.QueueOverview.Application.Features.MessageQueue.Queries
 
         public async Task<List<MessageQueueListVm>> Handle(GetMessageQueueListQuery request, CancellationToken cancellationToken)
         {
-            var allMessages = await _messagesRepository.GetMessagesAsync(request.ProjectId, cancellationToken);
+            var allMessages = await _messagesRepository.GetMessages(request.ProjectId, cancellationToken);
             _logger.LogDebug("Retrieved {Count} messages", allMessages.Count);
             return _mapper.Map<List<MessageQueueListVm>>(allMessages);
         }
