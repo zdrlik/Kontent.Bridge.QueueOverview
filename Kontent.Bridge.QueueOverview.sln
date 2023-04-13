@@ -9,19 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AEE18934
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8DB1E5C4-81CC-4062-9638-9BD8F2C8A245}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Bridge.QueueOverview.Domain", "Kontent.Bridge.QueueOverview.Domain\Kontent.Bridge.QueueOverview.Domain.csproj", "{ADB5A550-7F9B-40F3-B6A4-217D343B862F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Bridge.QueueOverview.Domain", "Kontent.Bridge.QueueOverview.Domain\Kontent.Bridge.QueueOverview.Domain.csproj", "{ADB5A550-7F9B-40F3-B6A4-217D343B862F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Bridge.QueueOverview.Application", "Kontent.Bridge.QueueOverview.Application\Kontent.Bridge.QueueOverview.Application.csproj", "{326DA200-22A0-4CE1-B90F-19140892E008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Bridge.QueueOverview.Application", "Kontent.Bridge.QueueOverview.Application\Kontent.Bridge.QueueOverview.Application.csproj", "{326DA200-22A0-4CE1-B90F-19140892E008}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5D2C3FA3-CF5A-4FCE-9897-74EEC1481207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Bridge.QueueOverview.Infrastructure", "Kontent.Bridge.QueueOverview.Infrastructure\Kontent.Bridge.QueueOverview.Infrastructure.csproj", "{B2CD253D-5876-407F-96D2-F6E6902CC510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Bridge.QueueOverview.Infrastructure", "Kontent.Bridge.QueueOverview.Infrastructure\Kontent.Bridge.QueueOverview.Infrastructure.csproj", "{B2CD253D-5876-407F-96D2-F6E6902CC510}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{AA6A0389-0ECC-4677-AD3E-65E07D4B7E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Bridge.QueueOverview.Api", "Kontent.Bridge.QueueOverview.Api\Kontent.Bridge.QueueOverview.Api.csproj", "{0829DBA9-AE75-42BF-8714-BAE532B3D014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Bridge.QueueOverview.Api", "Kontent.Bridge.QueueOverview.Api\Kontent.Bridge.QueueOverview.Api.csproj", "{0829DBA9-AE75-42BF-8714-BAE532B3D014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Bridge.QueueOverview.Application.UnitTests", "Kontent.Bridge.QueueOverview.Application.UnitTests\Kontent.Bridge.QueueOverview.Application.UnitTests.csproj", "{1867A5BD-18C6-4A65-A418-3A579D63998A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Bridge.QueueOverview.Application.UnitTests", "Kontent.Bridge.QueueOverview.Application.UnitTests\Kontent.Bridge.QueueOverview.Application.UnitTests.csproj", "{1867A5BD-18C6-4A65-A418-3A579D63998A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7CE078A1-6D18-4489-8E9B-86F8CF35EB3C}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
