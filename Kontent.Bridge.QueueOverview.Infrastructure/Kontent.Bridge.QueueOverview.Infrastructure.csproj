@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Kontent.Bridge.QueueOverview.Application\Kontent.Bridge.QueueOverview.Application.csproj" />
+  </ItemGroup>
+
 </Project>

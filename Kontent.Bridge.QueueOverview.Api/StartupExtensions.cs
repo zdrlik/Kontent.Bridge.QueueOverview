@@ -1,5 +1,6 @@
 ﻿using Kontent.Bridge.QueueOverview.Api.Middleware;
 using Kontent.Bridge.QueueOverview.Application;
+using Kontent.Bridge.QueueOverview.Infrastructure;
 
 namespace Kontent.Bridge.QueueOverview.Api
 {
@@ -11,7 +12,9 @@ namespace Kontent.Bridge.QueueOverview.Api
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            
             builder.Services.AddApplicationServices();
+            builder.Services.AddInfrastructureServices();
 
             return builder.Build();
         }

@@ -4,6 +4,6 @@ namespace Kontent.Bridge.QueueOverview.Application.Contracts.Persistence
 {
     public interface IMessagesRepository
     {
-        Task<List<MessageQueueItem>> GetMessagesAsync(string projectId, CancellationToken cancellationToken);
+        Task<IReadOnlyList<MessageQueueItem>> GetMessagesAsync(string projectId, CancellationToken cancellationToken);
     }
 }
