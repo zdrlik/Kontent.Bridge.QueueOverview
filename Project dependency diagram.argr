@@ -1,0 +1,15 @@
+<ArchitectureGraph>
+  <Module Identifier="ADB5A550-7F9B-40F3-B6A4-217D343B862F" Name="Kontent.Bridge.QueueOverview.Domain" />
+  <Module Identifier="326DA200-22A0-4CE1-B90F-19140892E008" Name="Kontent.Bridge.QueueOverview.Application" />
+  <Module Identifier="B2CD253D-5876-407F-96D2-F6E6902CC510" Name="Kontent.Bridge.QueueOverview.Infrastructure" />
+  <Module Identifier="0829DBA9-AE75-42BF-8714-BAE532B3D014" Name="Kontent.Bridge.QueueOverview.Api" />
+  <Module Identifier="1867A5BD-18C6-4A65-A418-3A579D63998A" Name="Kontent.Bridge.QueueOverview.Application.UnitTests" />
+  <Reference Identifier="326DA200-22A0-4CE1-B90F-19140892E008/r:Kontent.Bridge.QueueOverview.Domain" SourceId="326DA200-22A0-4CE1-B90F-19140892E008" Name="Kontent.Bridge.QueueOverview.Domain" TargetId="ADB5A550-7F9B-40F3-B6A4-217D343B862F" />
+  <Reference Identifier="B2CD253D-5876-407F-96D2-F6E6902CC510/r:Kontent.Bridge.QueueOverview.Application" SourceId="B2CD253D-5876-407F-96D2-F6E6902CC510" Name="Kontent.Bridge.QueueOverview.Application" TargetId="326DA200-22A0-4CE1-B90F-19140892E008" />
+  <Reference Identifier="B2CD253D-5876-407F-96D2-F6E6902CC510/r:Kontent.Bridge.QueueOverview.Domain" SourceId="B2CD253D-5876-407F-96D2-F6E6902CC510" Name="Kontent.Bridge.QueueOverview.Domain" TargetId="ADB5A550-7F9B-40F3-B6A4-217D343B862F" />
+  <Reference Identifier="0829DBA9-AE75-42BF-8714-BAE532B3D014/r:Kontent.Bridge.QueueOverview.Application" SourceId="0829DBA9-AE75-42BF-8714-BAE532B3D014" Name="Kontent.Bridge.QueueOverview.Application" TargetId="326DA200-22A0-4CE1-B90F-19140892E008" />
+  <Reference Identifier="0829DBA9-AE75-42BF-8714-BAE532B3D014/r:Kontent.Bridge.QueueOverview.Domain" SourceId="0829DBA9-AE75-42BF-8714-BAE532B3D014" Name="Kontent.Bridge.QueueOverview.Domain" TargetId="ADB5A550-7F9B-40F3-B6A4-217D343B862F" />
+  <Reference Identifier="0829DBA9-AE75-42BF-8714-BAE532B3D014/r:Kontent.Bridge.QueueOverview.Infrastructure" SourceId="0829DBA9-AE75-42BF-8714-BAE532B3D014" Name="Kontent.Bridge.QueueOverview.Infrastructure" TargetId="B2CD253D-5876-407F-96D2-F6E6902CC510" />
+  <Reference Identifier="1867A5BD-18C6-4A65-A418-3A579D63998A/r:Kontent.Bridge.QueueOverview.Application" SourceId="1867A5BD-18C6-4A65-A418-3A579D63998A" Name="Kontent.Bridge.QueueOverview.Application" TargetId="326DA200-22A0-4CE1-B90F-19140892E008" />
+  <Reference Identifier="1867A5BD-18C6-4A65-A418-3A579D63998A/r:Kontent.Bridge.QueueOverview.Domain" SourceId="1867A5BD-18C6-4A65-A418-3A579D63998A" Name="Kontent.Bridge.QueueOverview.Domain" TargetId="ADB5A550-7F9B-40F3-B6A4-217D343B862F" />
+</ArchitectureGraph>
