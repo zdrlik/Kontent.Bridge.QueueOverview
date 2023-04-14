@@ -14,7 +14,7 @@ The project's architecture is based on the [Clean Architecture](https://github.c
 * Kontent.Bridge.QueueOverview.Infrastructure - the infrastructure layer
 * Kontent.Bridge.QueueOverview.Application.Tests - the unit tests project for the application layer
 
-![Project dependency diagram](https://github.com/zdrlik/Kontent.Bridge.QueueOverview/blob/master/Project dependency diagram.png)
+![Project dependency diagram](https://github.com/zdrlik/Kontent.Bridge.QueueOverview/blob/master/Project%20dependency%20diagram.png)
 
 ### Kontent.Bridge.QueueOverview.Domain
 This project typically contains all entities, enums, exceptions, interfaces, types and logic specific to the domain layer.
