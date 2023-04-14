@@ -1,9 +1,9 @@
-# Kontent Message Queue Overview Solution Setup
+# Bridge Message Queue Overview Solution Setup
 
 ![Architecture diagram](https://github.com/zdrlik/Kontent.Bridge.QueueOverview/blob/master/MessageOverview-API-architecture.png)
 Note: arrows represents compile-time dependencies. 
 
-## 1. Kontent Message Queue Overview
+## 1. Bridge Message Queue Overview 
 The Kontent Message Queue Overview is a simple API that allows you to monitor the messages in the Kontent bridge message queue. 
 
 ## 2. Software Architecture
