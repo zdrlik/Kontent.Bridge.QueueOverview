@@ -19,7 +19,7 @@ This layer contains all application logic. It is dependent on the domain layer, 
 This layer defines interfaces that are implemented by outside layers. 
 For example, if the application need to access a repository, a repository interface would be added to application and an implementation would be created within infrastructure.
 
-### Kontent.Bridge.QueueOverview.Domain
+### Kontent.Bridge.QueueOverview.Infrastructure
 This layer typically contains classes for accessing external resources such databases, other services etc. 
 These classes should be based on interfaces defined within the application layer.
 
